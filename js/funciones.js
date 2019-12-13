@@ -1,27 +1,25 @@
-var Carlos =
-{
-	name : 'Carlos',
-	lastname : 'Ramiréz',
-	age : '45'
-};
+var Carlos ={
+	name: 'Carlos',
+	lastname: 'Ramiréz',
+	age: 45
+}
 
-var Dario =
-{
-	name : 'Dario',
-	lastname :'Goméz',
-	age : 27
-};
+var Dario ={
+	name: 'Dario',
+	lastname:'Goméz',
+	age: 27
+}
 
-function imprimirNameEnMayusculas(name)
+function imprimirNameEnMayusculas(people)
 {
-	name = name.toUpperCase(name);
+	var name = people.name.toUpperCase()
 	console.log(name)
 
 }
 
-imprimirNameEnMayusculas(Carlos.name);
+imprimirNameEnMayusculas(Carlos)
 
-imprimirNameEnMayusculas(Dario.name);
+imprimirNameEnMayusculas(Dario)
 
 
 console.log(Dario);
