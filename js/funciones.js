@@ -12,9 +12,7 @@ var Dario ={
 
 function imprimirNameEnMayusculas(people)
 {
-	var name = people.name.toUpperCase()
-	console.log(name)
-
+	console.log(people.name.toUpperCase())
 }
 
 imprimirNameEnMayusculas(Carlos)
@@ -22,4 +20,4 @@ imprimirNameEnMayusculas(Carlos)
 imprimirNameEnMayusculas(Dario)
 
 
-console.log(Dario);
+// console.log(Dario);
