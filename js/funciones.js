@@ -12,12 +12,27 @@ var Dario ={
 
 function imprimirNameEnMayusculas(people)
 {
-	console.log(people.name.toUpperCase())
+	var {name} = people
+	console.log(name.toUpperCase())
 }
 
 imprimirNameEnMayusculas(Carlos)
 
 imprimirNameEnMayusculas(Dario)
 
+imprimirNameEnMayusculas({name: 'raul'})
+
+function imprimirNombreYEdad(data)
+{
+	var {name , age} = data;
+	console.log(`Hola me llamo ${name} y tengo ${age} años `);
+}
+
+imprimirNombreYEdad(Carlos);
+
+imprimirNombreYEdad(Dario);
+
+
+//Hola. me llamo (name) y tengo age años
 
 // console.log(Dario);
