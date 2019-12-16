@@ -33,6 +33,13 @@ imprimirNombreYEdad(Carlos);
 imprimirNombreYEdad(Dario);
 
 
-//Hola. me llamo (name) y tengo age años
 
-// console.log(Dario);
+
+ function cumple (data)
+ {
+ 	return{
+ 		
+ 		...data,
+ 		age : data.age + 1
+ 	} 	
+ }
